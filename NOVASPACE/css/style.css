@@ -1,0 +1,1019 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Fast Hand';
+    src: url(/font/FastHand-lgBMV.ttf);
+}
+.a-text{
+    text-decoration: none;
+    font-family:'Fast Hand';
+}
+header
+{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.navbar-logo-container{
+    
+    font-family: "Fast Hand";
+    width: auto;
+    font-size: 30px;
+    height: 70px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+    
+}
+
+.navbar-logo-container a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-button-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 30px;
+}
+#navbar-button{
+    margin: 30px;
+    font-size: 30px;
+    color: white;
+}
+#navbar-button-active{
+    margin: 30px;
+    font-size: 30px;
+    color: #E54949;
+}
+#navbar-button:hover{
+    color: #E54949;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+body{
+    background-image: url('/image/Wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+}
+.home-container{
+    width: 80vw;
+    height: 1820px;
+    background-color: rgb(255, 255, 255,0.2);
+}
+.vision-container{
+    margin-top: 80px;
+    height: 30%;
+    width: 100%;
+}
+.vision-image-container{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vision-img{
+    height: 200px;
+    width: 200px;
+    margin: 60px;
+}
+.vision-text{
+    height: 50%;
+    width: 100%;
+    color: white;
+    font-size: 36px;
+    font-family: 'Fast Hand';
+    text-align: center;
+    letter-spacing: 2px;
+}
+.recent-container{
+    
+    
+    height: 35%;
+    width: 100%;
+}
+.recent-launches-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recent-launches-ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 90px 70px;
+    font-size: 28px;
+    font-family: 'Fast Hand';
+    color: white;
+    letter-spacing: 1px;
+}
+.recent-number{
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+
+.latest-container{
+    height: 30%;
+    width: 100%;
+}
+.latest-text{
+    margin-left: 70px;
+    font-size: 40px;
+    font-family: 'Fast Hand';
+    color: white;
+}
+.latest-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 100px 5px;
+}
+.latest-img{
+    height: 170px;
+    width: 300px;
+    background-size: cover;
+}
+.latest-img-filter{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.seemore{
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 22px;
+    color: white;
+    border-radius: 10px;
+}
+.latest-img-filter:hover{
+    background-color: rgb(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: ease 0.4s;
+}
+#Rocket_1{
+    background-image: url(/image/Rocket_1.jpg);
+}
+#Rocket_2{
+    background-image: url(/image/Rocket_2.jpg);
+}
+#Rocket_3{
+    background-image: url(/image/Rocket_3.jpg);
+}
+.vehicle-text{
+    margin-top: 100px;
+    height: 4%;
+    font-family: "Fast Hand";
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.vehicles-container{
+    width: 80vw;
+    height: 2389px;
+    background-color: rgb(255, 255, 255,0.2);
+}
+.vehicle-container
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+
+}
+.vehicle-container-dashed
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    border-bottom: 10px;
+    border-color: white;
+    border-bottom-style: dashed;
+
+}
+#vehicle_1{
+    width: 100%;
+    height: 85%;
+    background-image: url(/image/Vehicles_1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+}
+#vehicle_2{
+    width: 100%;
+    height: 85%;
+    background-image: url(/image/Vehicles_2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+}
+#vehicle_3{
+    width: 100%;
+    height: 85%;
+    background-image: url(/image/Vehicles_3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+}
+.vehicle-desc-container{
+    width: 60%;
+    height: 100%;
+    font-family: "Fast Hand";
+    color: white;
+}
+.vehicle-title{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.vehicle-desc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vehicle-ul-1{
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 24px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.vehicle-ul-2{
+    text-align: right;
+    list-style-type: none;
+    margin: 0 30px;
+    font-size: 24px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.vehicle-li{
+    padding: 20px;
+}
+.programs-container{
+    width: 80vw;
+    height: 2389px;
+    background-color: rgb(255, 255, 255,0.1);
+}
+.programs-text{
+    margin-top: 100px;
+    height: 4%;
+    font-family: "Fast Hand";
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+    letter-spacing: 3.5px;
+}
+.program-container-dashed{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px;
+    border-color: white;
+    border-bottom-style: dashed;
+}
+.program-container-dashed-2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 10px;
+    border-color: white;
+    border-bottom-style: dashed;
+}
+.program-container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.programs-img{
+    width: 500px;
+    height: 500px;
+}
+.program-desc-container
+{
+    width: 45%;
+    height: 90%;
+}
+.program-title{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    letter-spacing: 2px;
+}
+.program-text{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 22px;
+    margin: 30px;
+    letter-spacing: 1px;
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+}
+.launches-container{
+    width: 80vw;
+    height: 1820px;
+    background-color: rgb(255, 255, 255,0.2);
+}
+.launches-text{
+    margin-top: 100px;
+    height: 6%;
+    font-family: "Fast Hand";
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.launches-img-primary{
+    margin: 5% 0;
+    width: 100%;
+    height: 37%;
+    background-image: url(/image/Rocket_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.launches-img-secondary-container{
+    margin: 7% 0;
+    width: 100%;
+    height: 17%;
+    display: flex;
+}
+.launches-img-secondary{
+    width: 50%;
+    height: 100%;
+}
+.launches-img-filter{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.launches-img-filter:hover{
+    background-color: rgb(0, 0, 0, 0.7);
+    opacity: 1;
+    transition: ease 0.4s;
+}
+.watchhere-1{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin: 30px;
+    background-color:black;
+    letter-spacing: 1px;
+    
+}
+.watchhere-2{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    margin: 15px;
+    background-color: #000;
+    letter-spacing: 2px;
+    
+}
+.launch-text-1{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 56px;
+    margin: 30px;
+    text-align: right;
+}
+.launch-text-2{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 28px;
+    margin: 15px;
+    text-align: right;
+}
+.launch-mission{
+
+    letter-spacing: 1px;
+
+}
+#secondary-1{
+    background-image: url(/image/Rocket_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#secondary-2{
+    background-image: url(/image/Rocket_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#secondary-3{
+    background-image: url(/image/Vehicles_3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#secondary-4{
+    background-image: url(/image/Vehicles_1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.register-card-container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.close-logo{
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+.register-container{
+    width: 90vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255,0.2);
+    display: flex;
+}
+.left-register-container{
+    width: 50%;
+    height: 100%;
+    background-color: #502802;
+}
+.left-register-card{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-register-info{
+    width: 60%;
+    height: 50%;
+}
+.register-logo-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-family: "Fast Hand";
+    font-size: 28px;
+}
+.register-logo{
+    width: 250px;
+    height: 85px;
+}
+.register-text{
+    font-family: "Fast Hand";
+    color: white;
+    font-size: 36px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+.right-register-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.input{
+    width: 60%;
+    height: 10%;
+    border: 0;
+    padding: 0 10%;
+    margin: 3.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.input-2{
+    width: 50%;
+    height: 100%;
+    border: 0;
+    padding-left: 10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.submit{
+    width: 100%;
+    height: 10%;
+    border: 0;
+    margin: 3%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.submit:hover{
+    color: white;
+    background-color: black;
+    transition: ease 0.3s;
+}
+.gender-country{
+    width: 80%;
+    height: 10%;
+    margin: 3.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.register-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: "Fast Hand";
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 7px 30px;
+    transition: all 0.3s ease-in-out;
+}
+.hamburger-menu-container{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: right;
+}
+.hamburger-menu{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    right: -100%;
+    transition: 0.6s;
+    margin-top: 100px;
+}
+#hamburger-button{
+    width: 100%;
+    height: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -100%;
+    transition: 0.6s;
+    font-size: 20px;
+}
+#hamburger-button:hover{
+    text-decoration: underline 2px;
+    transition: ease-in-out;
+}
+#hamburger-button-focus{
+    width: 100%;
+    height: 25%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -100%;
+    transition: 0.6s;
+    font-size: 20px;
+    text-decoration: underline 2px;
+}
+
+@media screen and (max-width: 1100px) {
+    .vision-text{
+        font-size: 32px;
+    }
+    .recent-launches-ul{
+        font-size: 18px;
+    }
+    .recent-number{
+        font-size: 60px;
+    }
+    
+   
+    .navbar-logo{
+        margin: 20px;
+        height: 50px;
+    }
+    .header{
+        height: 50px;
+    }
+    .navbar-button-container{
+        padding: 0px;
+    }
+    #navbar-button{
+        font-size: 22px;
+    }
+    #navbar-button-active{
+        font-size: 22px;
+    }
+    .latest-img{
+        height: 100px;
+        width: 180px;
+    }
+    .home-container{
+        height: 1200px;
+    }
+    .latest-img-container{
+        margin: 50px 5px;
+    }
+    .latest-text{
+        font-size: 32px;
+    }
+    .recent-launches-ul{
+        margin: 120px 50px;
+    }
+    .vision-img{
+        margin: 20px;
+    }
+    .seemore{
+        font-size: 12px;
+        padding: 8px;
+    }
+    .vehicles-container{
+        height: 1600px;
+    }
+    .vehicle-title{
+        font-size: 28px;
+        margin: 20px;
+    }
+    .vehicle-ul-1{
+        margin: 0 20px;
+        font-size: 14px;
+    }
+    .vehicle-ul-2{
+        margin: 0 20px;
+        font-size: 14px;
+    }
+    .vehicle-li{
+        padding: 16px;
+    }
+    .vehicle-text{
+        font-size: 30px;
+    }
+    .programs-container{
+        height: 1600px;
+    }
+    .programs-img{
+        width: 250px;
+        height: 250px;
+    }
+    .programs-text{
+        font-size: 30px;
+    }
+    .program-title{
+        font-size: 28px;
+        margin: 30px;
+    }
+    .program-text{
+        margin: 24px;
+        font-size: 14px;
+    }
+    .launches-container{
+        height: 1200px;
+    }
+    .launches-text{
+        font-size: 30px;
+    }
+    .watchhere-1{
+        font-size: 24px;
+        padding: 15px;
+    }
+    .launch-text-1{
+        font-size: 34px;
+    }
+    .watchhere-2{
+        font-size: 10px;
+        padding: 8px;
+    }
+    .launch-text-2{
+        font-size: 16px;
+    }
+    footer{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 912px) {
+    
+    #navbar-button{
+        display: none;
+    }
+    #navbar-button-active{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        width: 40px;
+        transform: translateY(17px); rotate: calc(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        width: 40px;
+        transform: translateY(-17px); rotate: calc(-45deg);
+    }
+    .hamburger-menu.active{
+        right: 0;
+    }
+    .launches-img-filter{
+        height: 100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0, 0.3);
+        opacity: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .launches-img-filter:hover{
+        background-color: rgb(0, 0, 0, 0.3);
+    }
+    .register-text{
+        font-size: 24px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .input-2{
+        font-size: 14px;
+    }
+    .submit{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px){
+    
+    .register-logo{
+        width: 200px;
+        height: 70px;
+    }
+    .register-logo-container{
+        height: 60px;
+    }
+    .input-container{
+        width: 90%;
+        height: 100%;
+    }
+    .programs-container{
+        width: 100%;
+    }
+    .vehicles-container{
+        width: 100%;
+    }
+    .home-container{
+        width: 100%;
+    }
+    .launches-container{
+        width: 100%;
+    }
+    .vision-img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 540px){
+    .register-container{
+        width: 80vw;
+        height: 90vh;
+        display: initial;
+    }
+    .left-register-container{
+        width: 100%;
+        height: 40%;
+    }
+    .right-register-container{
+        width: 100%;
+        height: 60%;
+    }
+    .register-logo-container{
+        margin: 0;
+    }
+    .input-container{
+        width: 80%;
+        height: 100%;
+    }
+    .input{
+        margin: 3% 5%;
+    }
+    .gender-country{
+        margin: 3% 5%;
+    }
+    .register-logo{
+        width: 100px;
+        height: 35px;
+    }
+    .register-text{
+        font-size: 14px;
+    }
+    .input{
+        font-size: 12px;
+    }
+    .input-2{
+        font-size: 12px;
+    }
+    .submit{
+        font-size: 16px;
+    }
+    .vision-img{
+        width: 120px;
+        height: 120px;
+    }
+    .vision-text{
+        font-size: 18px;
+    }
+    .recent-launches-container{
+        flex-direction: column;
+    }
+    .recent-launches-ul{
+        margin: 35px;
+    }
+    .latest-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+    .home-container{
+        height: 1920px;
+    }
+    .latest-text{
+        font-size: 22px;
+        margin: 0;
+    }
+    .latest-img-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .latest-img{
+        margin: 30px;
+    }
+    .vision-img{
+        margin: 0;
+        margin-top: 100px;
+    }
+    .vision-container{
+        height: 28%;
+    }
+    .latest-img-filter{
+        background-color: rgb(0, 0, 0, 0.3);
+        opacity: 1;
+    }
+    .vehicles-container{
+        height: 1180px;
+    }
+    .vehicle-text{
+        font-size: 20px;
+    }
+    .vehicle-title{
+        font-size: 18px;
+        margin: 10px;
+    }
+    .vehicle-ul-1{
+        margin: 0;
+        font-size: 10px;
+    }
+    .vehicle-ul-2{
+        margin: 0;
+        font-size: 10px;
+    }
+    .vehicle-li{
+        padding: 9px;
+    }
+    .vehicle-container-dashed{
+        height: 28%;
+    }
+    .vehicle-container{
+        height: 28%;
+    }
+    .programs-img{
+        width: 150px;
+        height: 150px;
+    }
+    .programs-img{
+        width: 180px;
+        height: 180px;
+        margin-top: 50px;
+    }
+    .programs-container{
+        height: 2080px;
+    }
+    .program-title{
+        font-size: 18px;
+    }
+    .programs-text{
+        font-size: 20px;
+    }
+    .program-text{
+        font-size: 13px;
+    }
+    .program-container{
+        flex-direction: column;
+    }
+    .program-container-dashed{
+        flex-direction: column;
+    }
+    .program-container-dashed-2{
+        flex-direction: column-reverse;
+    }
+    .program-desc-container{
+        width: 100%;
+    }
+    .launches-container{
+        height: 2080px;
+    }
+    .launches-text{
+        font-size: 20px;
+        margin-top: 50px 0;
+        align-items: center;
+    }
+    .launches-img-primary{
+        height: 17%;
+    }
+    .launches-img-secondary{
+        height: 50%;
+        width: 100%;
+        margin: 3% 0;
+    }
+    .launches-img-secondary-container{
+        flex-direction: column;
+        margin: 0;
+    }
+    .watchhere-1{
+        font-size: 10px;
+        padding: 8px;
+        margin: 15px;
+    }
+    .launch-text-1{
+        margin: 15px;
+        font-size: 16px;
+    }
+    .launches-img-secondary-container{
+        margin: 7% 0;
+        width: 100%;
+        height: 33%;
+        display: flex;
+    }
+}
